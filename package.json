@@ -1,0 +1,51 @@
+{
+  "name": "pro-react-components",
+  "version": "1.0.0",
+  "description": "react reusable components",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamkibeh/pro-react-components.git"
+  },
+  "author": "pro-devs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamkibeh/pro-react-components/issues"
+  },
+  "homepage": "https://github.com/iamkibeh/pro-react-components#readme",
+  "devDependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/lab": "^5.0.0-alpha.152",
+    "@mui/material": "^5.14.16",
+    "@storybook/addon-essentials": "^7.5.2",
+    "@storybook/addon-interactions": "^7.5.2",
+    "@storybook/addon-links": "^7.5.2",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.5.2",
+    "@storybook/react": "^7.5.2",
+    "@storybook/react-vite": "^7.5.2",
+    "@storybook/testing-library": "^0.2.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.5.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.16",
+    "@mui/lab": "^5.0.0-alpha.152",
+    "@mui/material": "^5.14.16",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
