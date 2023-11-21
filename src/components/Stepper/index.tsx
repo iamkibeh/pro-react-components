@@ -66,4 +66,4 @@ function CustomStepper({ steps, activeStep = 0 }: StepperProps) {
 }
 
 
-export { CustomStepper}
+export default CustomStepper
